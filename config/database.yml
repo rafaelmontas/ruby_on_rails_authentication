@@ -15,8 +15,8 @@ development:
 
 production:
   <<: *default
-  adapter: postgresql # Warning: The database defined as "test" will be erased and # Warning: The database defined as "test" 
-will be erased and
+  adapter: postgresql 
+# Warning: The database defined as "test" will be erased and # Warning: The database defined as "test" will be erased and 
   database: db/production.sqlite3
 
 # re-generated from your development database when you run "rake".
